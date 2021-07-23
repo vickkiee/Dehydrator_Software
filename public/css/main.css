@@ -1,0 +1,169 @@
+
+
+ body {
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	position: relative;
+	height: 100vh;
+	/* overflow: hidden;  */
+	background: linear-gradient(90deg, #339933, #b3ffcb, #998033);	
+}
+
+.section h5 {
+	font-weight: 300;
+}
+
+#listTemp {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+
+#editOperation {
+	font-size: 0.8m;
+	padding-left: 24%;
+	padding-right: 24%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+#deleteOperation {
+	font-size: 0.7m;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+#mainchart {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.section {
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(0,0,0,.125);
+	padding: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+	padding: 0.25rem;
+	/* background-color: #a7b8c5; */
+	background: linear-gradient(90deg, #b3ffcb, #ccffdc, #b3cccc);
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: #339933;
+    border-color: #06478e;
+}
+
+img {
+	height: 40px;
+}
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+.navbar {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+#measurement {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.otherStatus {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.parameter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.Value{
+	color: #f498b8;
+    font-weight: bold;
+    font-size: 1.125rem;	
+}
+
+
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
